@@ -6,3 +6,4 @@ My Working Files
 	* Added Vehicle Collision Detection Warning Using Arduino Controller Files(IoT)
 	* Added Online_Registration_using_Java Files(Java)
 	* Added Calculator Files(Java)
+> Added Syllabus File
