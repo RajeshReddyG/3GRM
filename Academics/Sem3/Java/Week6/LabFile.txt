@@ -1,0 +1,14 @@
+You can remove an object Rajesh by using remove( ). To remove a group of objects, call
+removeAll( ). You can remove all elements except those of a specified group by calling
+retainAll( ). To empty a collection, call clear( ).
+You can determine whether a collection contains a specific object by calling contains( ).
+To determine whether one collection contains all the members of another, call containsAll( ).
+You can determine when a collection is empty by calling isEmpty( ). The number of elements
+currently held in a collection can be determined by calling size( ).
+The toArray( ) methods return an array that contains the elements stored in the invoking
+collection. The first returns an array of Object. The second returns an array of elements that
+have the same type as the array specified as a parameter. Normally, the second form is more
+convenient because it returns the desired array type. These methods are more important than
+it might at first seem. Often, processing the contents of a collection by using array-like syntax
+is advantageous. By providing a pathway between collections and arrays, you can have the
+best of both worlds.
