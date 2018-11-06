@@ -1,0 +1,13 @@
+>======================
+Angry IP Scanner
+Advance IP Scanner
+*nmap(Scanning)
+Zenmap(Windows, Scanning)
+*Nessus(Scanning)
+>=======================
+https://www.shodan.io/
+https://thehackernews.com/
+
+IDS - Intution Detection System
+IPS - Intution Protection System
+>========================

@@ -1,0 +1,40 @@
+> Marks <- read.csv(file = 'C:/Users/rock/Desktop/Assignments/Big Data-R/marks.csv')
+> Marks
+         StudentName ExamName Mid1 Mid2
+1       James Walker Big data   30   23
+2      Velma Clemons Big data   25   11
+3     Kibo Underwood Big data   23   18
+4        Louis Mcgee Big data   11   25
+5       Phyllis Paul Big data   18   30
+6     Zenaida Decker Big data   25   16
+7    Gillian Tillman Big data   30   17
+8    Constance Boone Big data   16   16
+9  Giselle Lancaster Big data   17   30
+10  Kirsten Mcdowell Big data   16   28
+> Marks$Total=rowSums(cbind(Marks$Mid1,Marks$Mid2))
+> Marks
+         StudentName ExamName Mid1 Mid2 Total
+1       James Walker Big data   30   23    53
+2      Velma Clemons Big data   25   11    36
+3     Kibo Underwood Big data   23   18    41
+4        Louis Mcgee Big data   11   25    36
+5       Phyllis Paul Big data   18   30    48
+6     Zenaida Decker Big data   25   16    41
+7    Gillian Tillman Big data   30   17    47
+8    Constance Boone Big data   16   16    32
+9  Giselle Lancaster Big data   17   30    47
+10  Kirsten Mcdowell Big data   16   28    44
+> Marks$Average=Marks$Total/2
+> Marks
+         StudentName ExamName Mid1 Mid2 Total Average
+1       James Walker Big data   30   23    53    26.5
+2      Velma Clemons Big data   25   11    36    18.0
+3     Kibo Underwood Big data   23   18    41    20.5
+4        Louis Mcgee Big data   11   25    36    18.0
+5       Phyllis Paul Big data   18   30    48    24.0
+6     Zenaida Decker Big data   25   16    41    20.5
+7    Gillian Tillman Big data   30   17    47    23.5
+8    Constance Boone Big data   16   16    32    16.0
+9  Giselle Lancaster Big data   17   30    47    23.5
+10  Kirsten Mcdowell Big data   16   28    44    22.0
+> 
